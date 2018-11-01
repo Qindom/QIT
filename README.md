@@ -17,7 +17,7 @@ Installation
 ------------
 
 Follow these
-`instructions <https://cirq.readthedocs.io/en/latest/install.html>`__.
+`instructions <https://github.com/Qindom/QIT/blob/master/doc/install.md>`__.
 
 Hello Qubit
 -----------
