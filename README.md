@@ -16,8 +16,9 @@ The qindomClient SDK is an open source tool built on top of python that provides
 Installation
 ------------
 
-Follow these
-`instructions <https://github.com/Qindom/QIT/blob/master/doc/install.md>`__.
+Follow these instructions
+`instructions
+https://github.com/Qindom/QIT/blob/master/doc/install.md
 
 Hello Qubit
 -----------
