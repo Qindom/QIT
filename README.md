@@ -17,10 +17,9 @@ Installation
 ------------
 
 Follow these instructions
-`instructions
 https://github.com/Qindom/QIT/blob/master/doc/install.md
 
-Hello Qubit
+Hello Qit
 -----------
 
 A simple example to get you up and running:
