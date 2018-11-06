@@ -22,7 +22,7 @@ https://docs.aws.amazon.com/cli/latest/userguide/installing.html
 
 in your windows command line interface or linux terminal run
 <p>aws configure
-<p>use aws_access_key_id;  aws_secret_access_key to finish configuring
+<p>use aws_access_key_id  aws_secret_access_key to finish configuring
 
 Sample code
 -----------
