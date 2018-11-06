@@ -1,7 +1,5 @@
 ## Installing qindomClient
 
----
-
 1. Make sure you have python 3.7.0 or greater (or else python 2.7).
 
     See [Installing Python 3](https://docs.python-guide.org/) @ the hitchhiker's guide to python.
