@@ -27,36 +27,8 @@ Sample code
 A simple example to get you up and running
 https://github.com/Qindom/QIT/blob/master/doc/Sample.ipynb
 
-Documentation
--------------
-
-See
-`here <https://cirq.readthedocs.io/en/latest/>`__
-or jump into the
-`tutorial <https://cirq.readthedocs.io/en/latest/tutorial.html>`__.
-
-Contributing
-------------
-
-We welcome contributions. Please follow these
-`guidelines <https://github.com/quantumlib/cirq/blob/master/CONTRIBUTING.md>`__.
-
-We use
-`Github issues <https://github.com/quantumlib/Cirq/issues>`__
-for tracking requests and bugs. Please post questions to the
-`Quantum Computing Stack Exchange <https://quantumcomputing.stackexchange.com/>`__ with a 'cirq' tag.
-
-See Also
---------
-
-For those interested in using quantum computers to solve problems in
-chemistry and materials science, we encourage exploring
-`OpenFermion <https://github.com/quantumlib/openfermion>`__ and
-its sister library for compiling quantum simulation algorithms in Cirq,
-`OpenFermion-Cirq <https://github.com/quantumlib/openfermion-cirq>`__.
-
 Disclaimers
 ----------
-**Cirq is currently in alpha.** We are still making breaking changes, and we *will* break your code when we make new releases. We recommend that you pin a specific version of cirq in `requirements.txt` files, and periodically bump to the latest release. That way you have control over when a breaking change affects you.
+**Qit is currently in alpha.** We are still making breaking changes, and we *will* break your code when we make new releases. We recommend that you pin a specific version of qindomClient in `requirements.txt` files, and periodically bump to the latest release. That way you have control over when a breaking change affects you.
 
-Cirq is not an official Google product. Copyright 2018 The Cirq Developers
+Copyright 2018 Qindom Inc.
