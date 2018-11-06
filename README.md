@@ -2,7 +2,9 @@
 QIT - a quantum ready machine learning platform
 ------------
 
-The qindomClient SDK is an open source tool built on top of python that provides API connections to QIT services. With minimal configuration, you can start using all of the machine learning algorithms that natively designed and implemented by the Qindom team. QIT is designed to serve Quantum Machine Learning methods and algorithm to public, and we are dedicated to build a whole new ML/AL eco-system.
+The qindomClient SDK is an open source tool built on top of python that provides API connections to QIT services. 
+With minimal configuration, you can start using all of the machine learning algorithms that natively designed and implemented by the Qindom team. 
+QIT is designed to serve Quantum Machine Learning methods and algorithm to public, and we are dedicated to build a whole new ML/AL eco-system.
 
 Installation
 ------------
