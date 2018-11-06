@@ -35,4 +35,6 @@ Disclaimers
 ----------
 **Qit is currently in alpha.** We are still making breaking changes, and we *will* break your code when we make new releases. We recommend that you pin a specific version of qindomClient in `requirements.txt` files, and periodically bump to the latest release. That way you have control over when a breaking change affects you.
 
+<p>
+  
 **Copyright 2018 Qindom Inc.**
