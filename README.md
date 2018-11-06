@@ -39,20 +39,3 @@ Disclaimers
   
 **Copyright 2018 Qindom Inc.**
 
-
-menu:
-   - page: home
-     directory: .
-     icon: fa-home
-   - page: archive
-     directory: archives/
-     icon: fa-archive
-   - page: about
-     directory: about/
-     icon: fa-user
-   - page: github
-     directory: github/
-     icon: fa-github-alt
-   - page: rss
-     directory: atom.xml
- 31     icon: fa-rss
