@@ -2,11 +2,9 @@
 
 ---
 
-0. Make sure you have python 3.7.0 or greater (or else python 2.7).
+1. Make sure you have python 3.7.0 or greater (or else python 2.7).
 
     See [Installing Python 3](https://docs.python-guide.org/) @ the hitchhiker's guide to python.
-
-1. Consider using a [virtual environment](https://packaging.python.org/guides/installing-using-pip-and-virtualenv/).
 
 2. Use `pip` to install `qindomClient`:
 
