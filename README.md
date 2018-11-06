@@ -25,7 +25,7 @@ Sample code
 -----------
 
 A simple example to get you up and running
-https://github.com/Qindom/QIT/blob/master/doc/sample.md
+https://github.com/Qindom/QIT/blob/master/doc/Sample.ipynb
 
 Documentation
 -------------
