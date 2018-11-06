@@ -15,11 +15,13 @@ Account sign up
 
 Contact info@qindom.com to get 
 qit_access_user_name;  qit_access_secrect_key;  aws_access_key_id;  aws_secret_access_key
---------------------------------------------------------------------------------------------------------------
+<p>
+<p>
 
 install aws cli on your windows or linux
 https://docs.aws.amazon.com/cli/latest/userguide/installing.html
---------------------------------------------------------------------------------------------------------------
+<p>
+<p>
 
 in your windows command line interface or linux terminal run
 <p>aws configure
