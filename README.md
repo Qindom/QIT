@@ -19,7 +19,14 @@ Installation
 Follow these instructions
 https://github.com/Qindom/QIT/blob/master/doc/install.md
 
-Hello Qubit
+Account sign up
+------------
+
+Contact info@qindom.com to get 
+
+qit_access_user_name;  qit_access_secrect_key;  aws_access_key_id;  aws_secret_access_key
+
+Sample code
 -----------
 
 A simple example to get you up and running
