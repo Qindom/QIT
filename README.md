@@ -1,17 +1,8 @@
-.. image:: https://github.com/quantumlib/cirq/blob/master/docs/Cirq_logo_color.svg
-  :alt: QIT
-  :width: 500px
 
-Qit is a quantum ready machine learning platform.
+QIT - a quantum ready machine learning platform
+------------
 
 The qindomClient SDK is an open source tool built on top of python that provides API connections to QIT services. With minimal configuration, you can start using all of the machine learning algorithms that natively designed and implemented by the Qindom team. QIT is designed to serve Quantum Machine Learning methods and algorithm to public, and we are dedicated to build a whole new ML/AL eco-system.
-
-.. image:: https://travis-ci.com/quantumlib/Cirq.svg?token=7FwHBHqoxBzvgH51kThw&branch=master
-  :target: https://travis-ci.com/quantumlib/Cirq
-  :alt: Build Status
-
-.. image:: https://badge.fury.io/py/cirq.svg
-    :target: https://badge.fury.io/py/cirq
 
 Installation
 ------------
