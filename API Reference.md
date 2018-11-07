@@ -21,5 +21,6 @@ API Reference
 
     '["ADA_BOOST","RANDOM_FOREST","QBOOST_IT","DECISION_TREE","GRADIENT_BOOST","K_NEIGHBORS","LOGIC_REGRESSION","XGBOOST","LIGHTGBM","INFINITY"]'
     
-
+## train_model_s3(training_data, clf_type, auto_adjust=True, n_estimators=None, random_state=None,
+                       max_depth=None, lmd=None, kernel=None, n_neighbors=None, verbose=None, gamma=None, c=None)
 
