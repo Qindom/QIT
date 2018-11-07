@@ -47,6 +47,12 @@ Sample code
 A simple example to get you up and running
 https://github.com/Qindom/QIT/blob/master/Sample.ipynb
 
+API Reference
+-----------
+
+Full list of the API
+https://github.com/Qindom/QIT/blob/master/Api_Reference.md
+
 Disclaimers
 ----------
 **Qit is currently in alpha.** We are still making breaking changes, and we *will* break your code when we make new releases. We recommend that you pin a specific version of qindomClient in `requirements.txt` files, and periodically bump to the latest release. That way you have control over when a breaking change affects you.
