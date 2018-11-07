@@ -3,8 +3,8 @@ API Reference
 
 Class qit.Qclient.Qclient：
 - get_methods():
-
-
+<p>Input/Output
+    
     Input na
     Return string
     
