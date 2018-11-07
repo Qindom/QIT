@@ -5,11 +5,11 @@ Class qit.Qclient.Qclient：
 - get_methods():
 <p>Input na
 <p>Return string
-  Sample code
-from qit.Qclient import Qclient
-username = "jimmy"
-secrect_key = 'b4415bc3-b497-493d-9d1b-ad65beca5d44'
-client.get_methods()
+<p>Sample code
+    from qit.Qclient import Qclient
+    username = "jimmy"
+    secrect_key = 'b4415bc3-b497-493d-9d1b-ad65beca5d44'
+    client.get_methods()
 
 Return:
 <p>'["ADA_BOOST","RANDOM_FOREST","QBOOST_IT","DECISION_TREE","GRADIENT_BOOST","K_NEIGHBORS","LOGIC_REGRESSION","XGBOOST","LIGHTGBM","INFINITY"]'
