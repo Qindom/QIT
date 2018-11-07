@@ -28,7 +28,11 @@ In your windows command line interface or linux terminal run aws configure, use 
 Data preparation
 ------------
 
-Two kinds of data should be prepared. One is training data, with no index, no column header, and prediction result in the last column. The other is prediction data, with no index, no column header, no prediction result.
+Two kinds of data should be prepared. 
+
+One is training data, with no index, no column header, and prediction result in the last column. 
+
+The other is prediction data, with no index, no column header, no prediction result.
 
 Sample code
 -----------
