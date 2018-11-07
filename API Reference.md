@@ -5,7 +5,7 @@ API Reference
 # Class qit.Qclient.Qclient 
 ## get_methods()
     
-    Desc: get the list of all the algorithms supported by Qit
+    Desc: get the list of all the algorithms supported by Qit. At this time, qit supports supervised binary classification, will support more in the future
     In: na
     Out: string, names of algorithms
     
@@ -85,6 +85,46 @@ API Reference
     Models are not ready yet, will try after a minute
     {"y_test_pred":[[-1.0],[1.0],[1.0],[1.0],[1.0],[1.0],[-1.0],[1.0],[1.0],[-1.0],[1.0],[1.0],[1.0],[-1.0],[1.0],[1.0],[-1.0],[1.0],[-1.0],[-1.0],[-1.0],[1.0],[1.0],[1.0],[1.0],[1.0],[1.0],[1.0],[-1.0],[1.0],[1.0],[1.0],[-1.0],[1.0],[-1.0],[1.0],[-1.0],[-1.0],[1.0],[-1.0],[-1.0],[1.0],[-1.0],[-1.0],[1.0]]}
     
+## Qclient()
+
+    Desc: init qindom client instance to use qit service
+    In: na
+    Out: object
+    
+<p>Sample code
+
+    from qit.Qclient import Qclient
+    username = "jimmy"
+    secrect_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    client = Qclient(username,secrect_key)
+    token = client.get_token()
+    print(token)
+    client2 = Qclient(username,token)
+
+<p>Return
+    
+    388c0625b0f85e0efae3d070eaebed9145f4d0e4
+    
+## get_token()
+
+    Desc: get token for current user, which will expire in designated time. You can use this token to use qit service temporarily
+    In: na
+    Out: string, token value
+    
+<p>Sample code
+
+    from qit.Qclient import Qclient
+    username = "jimmy"
+    secrect_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    client = Qclient(username,secrect_key)
+    token = client.get_token()
+    print(token)
+    client2 = Qclient(username,token)
+
+<p>Return
+    
+    388c0625b0f85e0efae3d070eaebed9145f4d0e4
+        
 ## get_methods()
     Desc: 
     In:
