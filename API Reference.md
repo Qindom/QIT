@@ -1,8 +1,4 @@
-API Reference
-===========================
-
-
-# Class qit.Qclient.Qclient 
+# API Reference - Class qit.Qclient.Qclient 
 
 ## Qclient()
 
