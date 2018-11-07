@@ -3,6 +3,49 @@ API Reference
 
 
 # Class qit.Qclient.Qclient 
+
+## Qclient()
+
+    Desc: init qindom client instance to use qit service
+    In: 
+        username: string, your username
+        secrect_key: string, your secrect_key, or you can use token. If you use token, you cannot run get_token
+    Out: object
+    
+<p>Sample code
+
+    from qit.Qclient import Qclient
+    username = "jimmy"
+    secrect_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    client = Qclient(username,secrect_key)
+    token = client.get_token()
+    print(token)
+    client2 = Qclient(username,token)
+
+<p>Return
+    
+    388c0625b0f85e0efae3d070eaebed9145f4d0e4
+    
+## get_token()
+
+    Desc: get token for current user, which will expire in designated time. You can use this token to use qit service temporarily
+    In: na
+    Out: string, token value
+    
+<p>Sample code
+
+    from qit.Qclient import Qclient
+    username = "jimmy"
+    secrect_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
+    client = Qclient(username,secrect_key)
+    token = client.get_token()
+    print(token)
+    client2 = Qclient(username,token)
+
+<p>Return
+    
+    388c0625b0f85e0efae3d070eaebed9145f4d0e4
+
 ## get_methods()
     
     Desc: get the list of all the algorithms supported by Qit. At this time, qit supports supervised binary classification, will support more in the future
@@ -85,46 +128,7 @@ API Reference
     Models are not ready yet, will try after a minute
     {"y_test_pred":[[-1.0],[1.0],[1.0],[1.0],[1.0],[1.0],[-1.0],[1.0],[1.0],[-1.0],[1.0],[1.0],[1.0],[-1.0],[1.0],[1.0],[-1.0],[1.0],[-1.0],[-1.0],[-1.0],[1.0],[1.0],[1.0],[1.0],[1.0],[1.0],[1.0],[-1.0],[1.0],[1.0],[1.0],[-1.0],[1.0],[-1.0],[1.0],[-1.0],[-1.0],[1.0],[-1.0],[-1.0],[1.0],[-1.0],[-1.0],[1.0]]}
     
-## Qclient()
 
-    Desc: init qindom client instance to use qit service
-    In: na
-    Out: object
-    
-<p>Sample code
-
-    from qit.Qclient import Qclient
-    username = "jimmy"
-    secrect_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-    client = Qclient(username,secrect_key)
-    token = client.get_token()
-    print(token)
-    client2 = Qclient(username,token)
-
-<p>Return
-    
-    388c0625b0f85e0efae3d070eaebed9145f4d0e4
-    
-## get_token()
-
-    Desc: get token for current user, which will expire in designated time. You can use this token to use qit service temporarily
-    In: na
-    Out: string, token value
-    
-<p>Sample code
-
-    from qit.Qclient import Qclient
-    username = "jimmy"
-    secrect_key = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx'
-    client = Qclient(username,secrect_key)
-    token = client.get_token()
-    print(token)
-    client2 = Qclient(username,token)
-
-<p>Return
-    
-    388c0625b0f85e0efae3d070eaebed9145f4d0e4
-        
 ## get_methods()
     Desc: 
     In:
