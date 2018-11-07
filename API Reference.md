@@ -1,7 +1,5 @@
 API Reference
 ===========================
-<p>
-===========================
 
 #Class qit.Qclient.Qclient 
 ##get_methods()
