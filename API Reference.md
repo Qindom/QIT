@@ -1,14 +1,9 @@
 API Reference
 ===========================
+===========================
 
-# 一级标题 Class qit.Qclient.Qclient 
-## 二级标题  get_methods()
-### 三级标题  
-#### 四级标题  
-##### 五级标题  
-###### 六级标题  
-- get_methods():
-<p>Input/Output
+#Class qit.Qclient.Qclient 
+##get_methods()
     
     Input na
     Return string
