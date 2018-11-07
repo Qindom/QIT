@@ -3,7 +3,7 @@ API Reference
 
 
 # Class qit.Qclient.Qclient 
-## qit.Qclient.Qclient.get_methods()
+## get_methods()
     
     Desc: get the list of all the algorithms supported by Qit
     In: na
