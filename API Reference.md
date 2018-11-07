@@ -3,7 +3,7 @@ API Reference
 
 
 # Class qit.Qclient.Qclient 
-## get_methods()
+## qit.Qclient.Qclient.get_methods()
     
     Input na
     Return string
