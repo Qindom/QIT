@@ -20,10 +20,15 @@ Account sign up
 Contact info@qindom.com to get 
 qit_access_user_name;  qit_access_secrect_key;  aws_access_key_id;  aws_secret_access_key
 
-install aws cli on your windows or linux
+Install aws cli on your windows or linux
 https://docs.aws.amazon.com/cli/latest/userguide/installing.html
 
-in your windows command line interface or linux terminal run aws configure, use aws_access_key_id  aws_secret_access_key to finish configuring
+In your windows command line interface or linux terminal run aws configure, use aws_access_key_id  aws_secret_access_key to finish configuring
+
+Data preparation
+------------
+
+Two kinds of data should be prepared. One is training data, with no index, no column header, and prediction result in the last column. The other is prediction data, with no index, no column header, no prediction result.
 
 Sample code
 -----------
