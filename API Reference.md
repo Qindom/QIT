@@ -56,3 +56,39 @@ API Reference
     {'headers': {}, 'body': 142113, 'statusCodeValue': 200, 'statusCode': 'OK'}
     142113
     
+## predict_sync()
+
+    Desc: Do predict on Qit
+    In:
+        test_data: string, s3 path, should be like: "your username" + "/" + training data file name
+        modelId: int, model id got from train_model_s3()
+    Out: string, including prediction result. If you do predict after train right away, you may get 'Models are not ready yet' notification
+        
+<p>Sample code
+
+    from qit.Qclient import Qclient
+    username = "jimmy"
+    secrect_key = 'cd6214cd7b91518b9697983969ab34e17a47dd29'
+    client = Qclient(username,secrect_key)
+    dataset='iris'
+    model_id = client.train_model_s3(training_data=username +'/' + dataset + '_train_X_y.csv', clf_type='DECISION_TREE')
+    prediction_result = client.predict_sync(test_data=username + '/' + dataset + '_valid_X.csv', modelId=model_id['body'])
+    while 'Models are not ready yet' in prediction_result:
+            print(prediction_result + ", will try after a minute")
+            time.sleep(60)
+            prediction_result = client.predict_sync(test_data=username + '/' + dataset + '_valid_X.csv', modelId=model_id['body'])
+    print(prediction_result)
+    predict_array = np.array(json.loads(prediction_result)['y_test_pred'])
+    
+<p>Return
+    
+    Models are not ready yet, will try after a minute
+    {"y_test_pred":[[-1.0],[1.0],[1.0],[1.0],[1.0],[1.0],[-1.0],[1.0],[1.0],[-1.0],[1.0],[1.0],[1.0],[-1.0],[1.0],[1.0],[-1.0],[1.0],[-1.0],[-1.0],[-1.0],[1.0],[1.0],[1.0],[1.0],[1.0],[1.0],[1.0],[-1.0],[1.0],[1.0],[1.0],[-1.0],[1.0],[-1.0],[1.0],[-1.0],[-1.0],[1.0],[-1.0],[-1.0],[1.0],[-1.0],[-1.0],[1.0]]}
+    
+## get_methods()
+    Desc: 
+    In:
+    Out:
+<p>Sample code
+
+<p>Return
