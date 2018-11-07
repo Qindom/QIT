@@ -10,9 +10,16 @@ QIT is designed to serve Quantum Machine Learning methods and algorithm to publi
 
 Installation
 ------------
+1. Make sure you have python 3.7.0 or greater (or else python 2.7).
 
-Follow these instructions
-https://github.com/Qindom/QIT/blob/master/doc/install.md
+    See [Installing Python 3](https://docs.python-guide.org/) @ the hitchhiker's guide to python.
+
+2. Use `pip` to install `qindomClient`:
+
+    ```bash
+    pip install --upgrade pip
+    pip install qindomClient
+    ```
 
 Account sign up
 ------------
