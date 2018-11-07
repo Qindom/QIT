@@ -45,7 +45,7 @@ Sample code
 -----------
 
 A simple example to get you up and running
-https://github.com/Qindom/QIT/blob/master/doc/Sample.ipynb
+https://github.com/Qindom/QIT/blob/master/Sample.ipynb
 
 Disclaimers
 ----------
