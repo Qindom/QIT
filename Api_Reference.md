@@ -67,6 +67,7 @@
     In:
         training_data: string, the s3 path of training
         clf_type：string, the name of algorithm, in ["ADA_BOOST","RANDOM_FOREST","QBOOST_IT","DECISION_TREE","GRADIENT_BOOST","K_NEIGHBORS","LOGIC_REGRESSION","XGBOOST","LIGHTGBM","INFINITY"]
+        Infinity is an algorithm developed by Qindom, Qboost_it is AutoML developed by Qindom. If you set clf_type as QBOOST_IT, qit will run and optimize all the algorithm automatically for you, and give you the best result.
         auto_adjust=True: Boolean, if Qit do hyperparameter optimization automatically or not
         n_estimators=None: int, paramater from sk-learn algorithm
         random_state=None: int, paramater from sk-learn algorithm
